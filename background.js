@@ -1,9 +1,11 @@
-chrome.action.onClicked.addListener(function() {
-  //chrome.tabs.create({ url: 'https://techtabor.agondolkodasorome.hu' });
-  //const tabId = getTabId();
+
+
+
+chrome.action.onClicked.addListener(function(tab) {
   chrome.scripting.executeScript(
     {
-      target: {tabId: tabId},
+      target: {tabId: tab.id},
       files: ['content-script.js'],
-    });
+    },
+    );
 });
