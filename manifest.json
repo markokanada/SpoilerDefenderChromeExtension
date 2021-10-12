@@ -13,6 +13,7 @@
     "activeTab",
     "alarms",
     "tabs",
-    "webRequest"
+    "webRequest",
+    "scripting"
   ]
 }
