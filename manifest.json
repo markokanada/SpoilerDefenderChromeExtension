@@ -1,0 +1,12 @@
+{
+  "name": "Techtábor bookmark",
+  "description": "This extension will lead you directly to Techtabor website",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon_128.png"
+  }
+}
